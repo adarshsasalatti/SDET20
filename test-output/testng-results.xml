@@ -1,36 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
+<testng-results skipped="0" failed="1" ignored="0" total="2" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="88927" started-at="2021-08-27T13:17:13Z" finished-at="2021-08-27T13:18:41Z">
+  <suite name="Default suite" duration-ms="290695" started-at="2021-09-06T11:55:15Z" finished-at="2021-09-06T12:00:06Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="88927" started-at="2021-08-27T13:17:13Z" finished-at="2021-08-27T13:18:41Z">
-      <class name="com.vtiger.airtel.CreateOrganizationWithIndustryTypeTest">
-        <test-method status="PASS" signature="configBS()[pri:0, instance:com.vtiger.airtel.CreateOrganizationWithIndustryTypeTest@59f99ea]" name="configBS" is-config="true" duration-ms="16" started-at="2021-08-27T18:47:13Z" finished-at="2021-08-27T18:47:13Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configBS -->
-        <test-method status="PASS" signature="configBC()[pri:0, instance:com.vtiger.airtel.CreateOrganizationWithIndustryTypeTest@59f99ea]" name="configBC" is-config="true" duration-ms="33983" started-at="2021-08-27T18:47:13Z" finished-at="2021-08-27T18:47:47Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configBC -->
-        <test-method status="PASS" signature="configBM()[pri:0, instance:com.vtiger.airtel.CreateOrganizationWithIndustryTypeTest@59f99ea]" name="configBM" is-config="true" duration-ms="24373" started-at="2021-08-27T18:47:47Z" finished-at="2021-08-27T18:48:11Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configBM -->
-        <test-method status="FAIL" signature="createOrganizationWithIndustryTypeTest()[pri:0, instance:com.vtiger.airtel.CreateOrganizationWithIndustryTypeTest@59f99ea]" name="createOrganizationWithIndustryTypeTest" duration-ms="290" started-at="2021-08-27T18:48:11Z" finished-at="2021-08-27T18:48:11Z">
-          <exception class="java.lang.AssertionError">
+    <test name="Default test" duration-ms="290695" started-at="2021-09-06T11:55:15Z" finished-at="2021-09-06T12:00:06Z">
+      <class name="com.vtiger.airtel.CreatingOrganizationWithRatingTypeTestNGTest">
+        <test-method status="FAIL" signature="CreatingOrganizationWithRatingTypeTestNGTest()[pri:0, instance:com.vtiger.airtel.CreatingOrganizationWithRatingTypeTestNGTest@4bec1f0c]" name="CreatingOrganizationWithRatingTypeTestNGTest" duration-ms="45268" started-at="2021-09-06T17:25:15Z" finished-at="2021-09-06T17:26:01Z">
+          <exception class="org.openqa.selenium.WebDriverException">
             <message>
-              <![CDATA[expected [true] but found [false]]]>
+              <![CDATA[chrome not reachable
+  (Session info: chrome=92.0.4515.159)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-C6N2AGF', ip: '192.168.81.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.159, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\Users\LENOVO\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:64883}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f10f7a9c4593bac5f4f30d27bd326b4b
+*** Element info: {Using=name, value=user_name}]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:94)
-	at org.testng.Assert.failNotEquals(Assert.java:513)
-	at org.testng.Assert.assertTrue(Assert.java:42)
-	at org.testng.Assert.assertTrue(Assert.java:52)
-	at com.vtiger.airtel.CreateOrganizationWithIndustryTypeTest.createOrganizationWithIndustryTypeTest(CreateOrganizationWithIndustryTypeTest.java:27)
+              <![CDATA[org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=92.0.4515.159)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-C6N2AGF', ip: '192.168.81.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.159, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\Users\LENOVO\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:64883}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f10f7a9c4593bac5f4f30d27bd326b4b
+*** Element info: {Using=name, value=user_name}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:404)
+	at org.openqa.selenium.By$ByName.findElement(By.java:284)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy7.sendKeys(Unknown Source)
+	at com.vtiger.comcast.pomrepositorylib.Login.loginToApp(Login.java:36)
+	at com.vtiger.airtel.CreatingOrganizationWithRatingTypeTestNGTest.CreatingOrganizationWithRatingTypeTestNGTest(CreatingOrganizationWithRatingTypeTestNGTest.java:42)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -58,23 +74,15 @@
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createOrganizationWithIndustryTypeTest -->
-        <test-method status="PASS" signature="configAM()[pri:0, instance:com.vtiger.airtel.CreateOrganizationWithIndustryTypeTest@59f99ea]" name="configAM" is-config="true" duration-ms="24918" started-at="2021-08-27T18:48:15Z" finished-at="2021-08-27T18:48:40Z">
+        </test-method> <!-- CreatingOrganizationWithRatingTypeTestNGTest -->
+        <test-method status="PASS" signature="CreatingOrganizationWithRatingTypeTestNGTest1()[pri:0, instance:com.vtiger.airtel.CreatingOrganizationWithRatingTypeTestNGTest@4bec1f0c]" name="CreatingOrganizationWithRatingTypeTestNGTest1" duration-ms="245204" started-at="2021-09-06T17:26:01Z" finished-at="2021-09-06T17:30:06Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- configAM -->
-        <test-method status="PASS" signature="configAC()[pri:0, instance:com.vtiger.airtel.CreateOrganizationWithIndustryTypeTest@59f99ea]" name="configAC" is-config="true" duration-ms="1497" started-at="2021-08-27T18:48:40Z" finished-at="2021-08-27T18:48:41Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configAC -->
-        <test-method status="PASS" signature="configAS()[pri:0, instance:com.vtiger.airtel.CreateOrganizationWithIndustryTypeTest@59f99ea]" name="configAS" is-config="true" duration-ms="0" started-at="2021-08-27T18:48:42Z" finished-at="2021-08-27T18:48:42Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configAS -->
-      </class> <!-- com.vtiger.airtel.CreateOrganizationWithIndustryTypeTest -->
+        </test-method> <!-- CreatingOrganizationWithRatingTypeTestNGTest1 -->
+      </class> <!-- com.vtiger.airtel.CreatingOrganizationWithRatingTypeTestNGTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

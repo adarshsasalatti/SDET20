@@ -23,6 +23,7 @@ public class CreatingOrganizationWithRatingTypeTest {
 		JavaUtility jLib = new JavaUtility();
 		int randomInt1 = jLib.getRandomNumber();
 		//common data
+		
 		String username = "admin";
 		String password = "root";
 		String URL = "http://localhost:8888";

@@ -3,17 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.vtiger.airtel.CreateOrganizationWithIndustryTypeTest">
+      <class name="com.vtiger.airtel.CreatingOrganizationWithRatingTypeTestNGTest">
         <methods>
-          <include name="configBS"/>
-          <include name="configBC"/>
-          <include name="configBM"/>
-          <include name="configAM"/>
-          <include name="createOrganizationWithIndustryTypeTest"/>
-          <include name="configAC"/>
-          <include name="configAS"/>
+          <include name="CreatingOrganizationWithRatingTypeTestNGTest"/>
         </methods>
-      </class> <!-- com.vtiger.airtel.CreateOrganizationWithIndustryTypeTest -->
+      </class> <!-- com.vtiger.airtel.CreatingOrganizationWithRatingTypeTestNGTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
